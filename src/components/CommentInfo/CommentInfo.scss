@@ -12,14 +12,14 @@
   }
 
   &__name {
-    color: #333;
     font-weight: bold;
+    color: #333;
   }
 
   &__email {
-    color: #0066cc;
-    text-decoration: none;
     font-style: italic;
+    color: #06c;
+    text-decoration: none;
 
     &:hover {
       text-decoration: underline;
@@ -27,8 +27,8 @@
   }
 
   &__body {
+    font-size: 0.95em;
     line-height: 1.4;
     color: #555;
-    font-size: 0.95em;
   }
 }

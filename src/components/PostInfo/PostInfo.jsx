@@ -18,7 +18,7 @@ export const PostInfo = ({ post }) => {
         </p>
       </div>
       <p className="PostInfo__body">{body}</p>
-      <hr />і{' '}
+      <hr />
       {comments.length > 0 ? (
         <CommentList comments={comments} />
       ) : (
